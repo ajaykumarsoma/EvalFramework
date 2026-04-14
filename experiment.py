@@ -70,3 +70,61 @@ DATA = [
      "The capital of France is Paris.", 5, False),
 
     ("Who discovered penicillin?",
+     "Penicillin was discovered by Alexander Fleming in 1928.",
+     "Penicillin was discovered by Alexander Fleming.", 5, False),
+
+    ("What is the chemical symbol for gold?",
+     "The chemical symbol for gold is Au, from the Latin word aurum.",
+     "The chemical symbol for gold is Au.", 5, False),
+
+    ("What is the boiling point of water?",
+     "The boiling point of water at sea level is 100 degrees Celsius.",
+     "Water boils at 100 degrees Celsius at sea level.", 5, False),
+
+    ("When did the Berlin Wall fall?",
+     "The Berlin Wall fell on November 9, 1989.",
+     "The Berlin Wall fell in 1989.", 5, False),
+
+    ("Who painted the Mona Lisa?",
+     "The Mona Lisa was painted by Leonardo da Vinci, likely between 1503 and 1519.",
+     "Leonardo da Vinci painted the Mona Lisa.", 5, False),
+
+    ("What is the largest planet?",
+     "Jupiter is the largest planet in the solar system, with mass twice all others.",
+     "Jupiter is the largest planet in the solar system.", 5, False),
+
+    ("Who wrote Romeo and Juliet?",
+     "Romeo and Juliet was written by William Shakespeare in the 1590s.",
+     "Shakespeare wrote Romeo and Juliet.", 5, False),
+
+    ("What does DNA stand for?",
+     "DNA stands for deoxyribonucleic acid, the molecule carrying genetic instructions.",
+     "DNA stands for deoxyribonucleic acid.", 5, False),
+
+    # ── PARTIAL answers (human score 3) — vague or incomplete ───────────────
+    ("Who wrote Hamlet?",
+     "Hamlet was written by William Shakespeare, probably between 1599 and 1601.",
+     "It was written by a famous English playwright.", 3, False),
+
+    ("What is the capital of France?",
+     "The capital of France is Paris, located on the River Seine.",
+     "France has a capital city in Europe.", 3, False),
+
+    ("Who discovered penicillin?",
+     "Penicillin was discovered by Alexander Fleming in 1928.",
+     "An English scientist discovered it in the early 20th century.", 3, False),
+
+    ("What is the chemical symbol for gold?",
+     "The chemical symbol for gold is Au, from the Latin word aurum.",
+     "Gold has a two-letter chemical symbol.", 3, False),
+
+    ("What is the boiling point of water?",
+     "The boiling point of water at sea level is 100 degrees Celsius.",
+     "Water boils at a temperature above 90 degrees.", 3, False),
+
+    ("When did the Berlin Wall fall?",
+     "The Berlin Wall fell on November 9, 1989.",
+     "The Berlin Wall fell sometime in the late 1980s.", 3, False),
+
+    ("Who painted the Mona Lisa?",
+     "The Mona Lisa was painted by Leonardo da Vinci, likely between 1503 and 1519.",
