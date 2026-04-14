@@ -128,3 +128,38 @@ DATA = [
 
     ("Who painted the Mona Lisa?",
      "The Mona Lisa was painted by Leonardo da Vinci, likely between 1503 and 1519.",
+     "An Italian Renaissance artist painted it.", 3, False),
+
+    ("What is the largest planet?",
+     "Jupiter is the largest planet in the solar system, with mass twice all others.",
+     "One of the gas giants is the largest planet.", 3, False),
+
+    ("Who wrote Romeo and Juliet?",
+     "Romeo and Juliet was written by William Shakespeare in the 1590s.",
+     "The same person who wrote Hamlet also wrote this play.", 3, False),
+
+    ("What does DNA stand for?",
+     "DNA stands for deoxyribonucleic acid, the molecule carrying genetic instructions.",
+     "DNA is an acronym for a type of biological molecule.", 3, False),
+
+    # ── HALLUCINATED answers (human score 1) — plausible but factually wrong ─
+    ("Who wrote Hamlet?",
+     "Hamlet was written by William Shakespeare, probably between 1599 and 1601.",
+     "Hamlet was written by Christopher Marlowe in 1592.", 1, True),
+
+    ("What is the capital of France?",
+     "The capital of France is Paris, located on the River Seine.",
+     "The capital of France is Lyon, the country's second-largest city.", 1, True),
+
+    ("Who discovered penicillin?",
+     "Penicillin was discovered by Alexander Fleming in 1928.",
+     "Penicillin was discovered by Louis Pasteur in the 1880s.", 1, True),
+
+    ("What is the chemical symbol for gold?",
+     "The chemical symbol for gold is Au, from the Latin word aurum.",
+     "The chemical symbol for gold is Gd, standing for goldium.", 1, True),
+
+    ("What is the boiling point of water?",
+     "The boiling point of water at sea level is 100 degrees Celsius.",
+     "Water boils at 212 degrees Celsius at sea level.", 1, True),
+
